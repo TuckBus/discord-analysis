@@ -1,6 +1,6 @@
 # discord analysis
 
-Analyze your discord messages and put them into a neat little JSON file!
+Analyze your discord messages and put them into a neat little HTML file.
 
 ## Installation
 
@@ -12,7 +12,7 @@ Analyze your discord messages and put them into a neat little JSON file!
 1. Place your (zipped) discord data in the folder and rename it to `data.zip`
 1. Run `node index.js`
 1. Wait for it to finish
-1. Tada! You now have a file called `stats.json` in the folder, which contains all your messages and some statistics about them!
+1. Tada! The script will open a browser window with the results
 
 ## Usage
 
