@@ -4,6 +4,7 @@ Analyze your discord messages and put them into a neat little JSON file!
 
 ## Installation
 
+1. Request a copy of your data from Discord. [Learn how to do that here](https://support.discord.com/hc/en-us/articles/360004027692-Requesting-a-Copy-of-your-Data)
 1. Install Node.js from [here](https://nodejs.org/en/download/)
 1. Clone this repository (or download it as a zip and extract it)
 1. Open a command prompt (or equivalent) in the folder you cloned the repository to
