@@ -7,9 +7,12 @@
 	"license": "MIT",
 	"dependencies": {
 		"apos-to-lex-form": "^1.0.5",
+		"commander": "^10.0.0",
 		"csv-parse": "^5.3.6",
+		"jsdom": "^21.1.1",
 		"jszip": "^3.10.1",
 		"natural": "^6.2.0",
+		"open": "^9.1.0",
 		"stopwords": "^0.0.9"
 	}
 }

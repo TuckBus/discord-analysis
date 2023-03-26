@@ -13,3 +13,15 @@ Analyze your discord messages and put them into a neat little JSON file!
 1. Run `node index.js`
 1. Wait for it to finish
 1. Tada! You now have a file called `stats.json` in the folder, which contains all your messages and some statistics about them!
+
+## Usage
+
+The following command line arguments are available:
+| Argument | Default| Description |
+| --- | --- | --- |
+| `-h`, `--help` | | Show help |
+| `-d`, `--data <path>` | `data.zip` | Path to the data file |
+| `-o`, `--output <path>`| `stats.json` | Path to the output file |
+| `-v`, `--visualize` |`true`| Visualize the data in a browser |
+| `-n`, `--no-parse` |`false`| Don't parse the data, just visualize it |
+| `-p`, `--no-open` |`false`| Do not open the `stats.html` file in the browser |
