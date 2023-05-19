@@ -22,6 +22,6 @@ The following command line arguments are available:
 | `-h`, `--help` | | Show help |
 | `-d`, `--data <path>` | `data.zip` | Path to the data file |
 | `-o`, `--output <path>`| `stats.json` | Path to the output file |
-| `-v`, `--visualize` |`true`| Visualize the data in a browser |
-| `-n`, `--no-parse` |`false`| Don't parse the data, just visualize it |
+| `-v`, `--visualize` |`true`| Visualize the data in an HTML file |
+| `-n`, `--no-parse` |`false`| Don't parse the data, just visualize it (using a previously parsed dataset) |
 | `-p`, `--no-open` |`false`| Do not open the `stats.html` file in the browser |
