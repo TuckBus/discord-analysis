@@ -1,0 +1,128 @@
+repo_name: TesseractB/discord-analysis
+report_id: d86bc7f1ebdd5b7dff72bf1a1ab889c8
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-28T03:58:02+00:00'
+requested_by: TesseractB
+provider: github
+branch: main
+detected_tools_count: 9
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/TesseractB/discord-analysis
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/TesseractB/discord-analysis
+  detection_source: Repo Metadata
+- name: jsdom
+  description: A JavaScript implementation of the WHATWG DOM and HTML standards, for
+    use with node.js
+  website_url: https://github.com/jsdom/jsdom
+  version: 21.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7054/preview.jpeg
+  detection_source_url: https://github.com/TesseractB/discord-analysis/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: TesseractB
+  last_updated_on: 2023-03-26 16:40:36.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/TesseractB/discord-analysis/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: TesseractB
+  last_updated_on: 2023-03-26 09:00:05.000000000 Z
+- name: commander
+  description: The complete solution for node.js command-line programs
+  package_url: https://www.npmjs.com/commander
+  version: 10.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
+  detection_source_url: https://github.com/TesseractB/discord-analysis/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: TesseractB
+  last_updated_on: 2023-03-26 16:40:36.000000000 Z
+- name: csv-parse
+  description: CSV parsing implementing the Node.js `stream.Transform` API
+  package_url: https://www.npmjs.com/csv-parse
+  version: 5.3.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17054/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: https://github.com/TesseractB/discord-analysis/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: TesseractB
+  last_updated_on: 2023-03-26 09:05:10.000000000 Z
+- name: jszip
+  description: Create
+  package_url: https://www.npmjs.com/jszip
+  version: 3.10.1
+  license: MIT,GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16628/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/TesseractB/discord-analysis/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: TesseractB
+  last_updated_on: 2023-03-26 09:05:10.000000000 Z
+- name: natural
+  description: General natural language
+  package_url: https://www.npmjs.com/natural
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18160/default_0bb0f4fd59640311a8af225b57652f46ca85cd80.png
+  detection_source_url: https://github.com/TesseractB/discord-analysis/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: TesseractB
+  last_updated_on: 2023-03-26 09:05:10.000000000 Z
+- name: open
+  description: Open stuff like URLs, files, executables. Cross-platform
+  package_url: https://www.npmjs.com/open
+  version: 9.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16245/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source_url: https://github.com/TesseractB/discord-analysis/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: TesseractB
+  last_updated_on: 2023-03-26 16:40:36.000000000 Z
